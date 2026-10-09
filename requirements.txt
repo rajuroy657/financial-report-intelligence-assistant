@@ -21,4 +21,5 @@ chromadb
 langchain-huggingface
 sentence-transformers
 docx2txt
+langsmith
 
