@@ -20,4 +20,5 @@ faiss-cpu
 chromadb
 langchain-huggingface
 sentence-transformers
+docx2txt
 
