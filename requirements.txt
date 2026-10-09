@@ -1,0 +1,15 @@
+streamlit
+
+langchain
+langchain-community
+langchain-core
+langchain-text-splitterspip 
+
+langchain-huggingface
+langchain-google-genai
+
+faiss-cpu
+sentence-transformers
+
+docx2txt
+python-docx
