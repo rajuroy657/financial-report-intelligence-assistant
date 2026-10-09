@@ -13,3 +13,11 @@ sentence-transformers
 
 docx2txt
 python-docx
+streamlit
+python-dotenv
+pypdf
+langchain
+langchain-community
+langchain-text-splitters
+langchain-google-genai
+faiss-cpu
