@@ -5,3 +5,16 @@ langchain-community
 langchain-text-splitters
 langchain-google-genai
 faiss-cpu
+streamlit
+python-dotenv
+pypdf
+pandas
+numpy
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-google-genai
+google-genai
+faiss-cpu
+chromadb
