@@ -18,3 +18,5 @@ langchain-google-genai
 google-genai
 faiss-cpu
 chromadb
+langchain-huggingface
+
