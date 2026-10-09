@@ -1,4 +1,34 @@
 import os
+import streamlit as st
+
+os.environ["LANGSMITH_TRACING"] = str(
+    st.secrets.get("LANGSMITH_TRACING", "false")
+).lower()
+
+if st.secrets.get("LANGSMITH_API_KEY"):
+    os.environ["LANGSMITH_API_KEY"] = st.secrets[
+        "LANGSMITH_API_KEY"
+    ]
+
+os.environ["LANGSMITH_PROJECT"] = str(
+    st.secrets.get(
+        "LANGSMITH_PROJECT",
+        "financial-report-assistant"
+    )
+)
+st.write(
+    "LangSmith tracing enabled:",
+    os.getenv("LANGSMITH_TRACING") == "true"
+)
+st.write(
+    "LangSmith API key configured:",
+    bool(os.getenv("LANGSMITH_API_KEY"))
+)
+st.write(
+    "LangSmith project:",
+    os.getenv("LANGSMITH_PROJECT")
+)
+import os
 import re
 from pathlib import Path
 
